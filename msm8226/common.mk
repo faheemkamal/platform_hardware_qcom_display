@@ -7,6 +7,7 @@ common_includes += $(LOCAL_PATH)/../libhwcomposer
 common_includes += $(LOCAL_PATH)/../libexternal
 common_includes += $(LOCAL_PATH)/../libqservice
 common_includes += $(LOCAL_PATH)/../libvirtual
+common_includes += $(LOCAL_PATH)/../../../msm8x26/kernel-headers/
 
 ifeq ($(TARGET_USES_POST_PROCESSING),true)
     common_flags     += -DUSES_POST_PROCESSING
